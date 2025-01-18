@@ -1,0 +1,460 @@
+
+.fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}  
+.main-container{
+    /* Frame 4 */
+    position: static;
+    width: 1280px;
+    height: 560px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64;
+    padding: 80px 100px 80px 100px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 80px 0px;
+    border-radius: 24px;
+
+    background: rgb(198, 228, 214);
+    margin:160px 0px;
+    margin-left: 220px;
+
+}
+
+.main-container p{
+    /* Bangladesh 2.0 */
+    position: static;
+    width: 622px;
+    height: 28px;
+    /* Auto layout */
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;  
+} 
+
+.main-container h1{
+    /* Idea , innovation , vision and challenges in New Bangladesh. */
+    position: static;
+    width: 622px;
+    height: 201px;
+
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.main-container button{
+    /* Explore New Bangladesh */
+    position: static;
+    width: 202px;
+    height: 22px;
+    /* Frame 2 */
+    position: static;
+    width: 270px;
+    height: 56px;
+    border-radius: 8px;
+
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.main-container button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.vision {
+    margin:160px 0px;
+    margin-left: 220px;
+
+}
+
+.vision h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.head-pera{
+    position: static;
+    width: 1280px;
+    height: 48px;
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.visions{
+    display: flex;
+    gap: 25px;
+}
+
+.vision-column1{
+    position: static;
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 32px;
+
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.vision-column2{
+    position: static;
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 32px;
+
+    background: rgb(198, 228, 214);
+}
+.vision-column3{
+    position: static;
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 32px;
+
+    background: rgb(247, 235, 207);
+}
+
+.vision-column1 h4{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision-column2 h4{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision-column3 h4{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision-column1 p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: static;
+    width: 346.67px;
+    height: 72px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+    }
+.vision-column2 p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: static;
+    width: 346.67px;
+    height: 72px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;    
+}
+.vision-column3 p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: static;
+    width: 346.67px;
+    height: 72px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12;
+    padding: 0px;
+}
+
+.vision-column1 button{
+
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+
+    background: rgb(84, 144, 245);
+}
+
+
+
+.vision-column2 button{
+
+    padding: 11px 20px 11px 20px;
+
+    margin: 10px 0px;   
+    border-radius: 8px;
+
+    background: rgb(9, 161, 92);
+    
+
+}
+
+.vision-column3 button{
+
+    padding: 11px 20px 11px 20px;
+
+
+ 
+
+    margin: 10px 0px;
+    border-radius: 8px;
+
+    background: rgb(255, 194, 57);
+}
+
+
+
+
+.quote{
+    /* Frame 2087325495 */
+    position: static;
+    width: 1280px;
+    height: 256px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    padding: 48px 24px 48px 24px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin: 0px 24px;
+
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgb(255, 255, 255);
+    margin:160px 0px;
+    margin-left: 220px;
+}
+.quotation{
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+
+}
+
+.quoted{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: left;    
+}
+
+.quotation h3{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 10px;
+    letter-spacing: 0%;
+    text-align: left;    
+}
+
+.quotation p{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0%;
+    text-align: left;    
+}
+.news{
+    margin:160px 0px;
+    margin-left: 220px;
+
+}
+.recent h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.recent p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;    
+}
+.sat-img-write{
+
+    /* Frame 2087325509 */
+    position: static;
+    width: 1280px;
+    height: 402px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32;
+    padding: 48px;
+
+
+    /* Inside Auto Layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+    border-radius: 24px;
+
+    background: rgb(234, 228, 228);
+}
+.image img{
+    border-radius: 24px;
+    margin: 0px 32px;
+}
+.satelite1 h2{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;    
+}
+.date{
+    display: flex;
+    gap: 12px;
+}
+.satelite1 p{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;    
+}
+
+.satelite1 button{
+ 
+    padding: 13px 26px 13px 26px;
+
+
+
+    margin: 32px 0px;    
+    border-radius: 8px;
+
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+}
