@@ -594,3 +594,68 @@
     background-color: red;
     cursor: pointer;
 }
+.subscribe {
+    margin: 160px auto;
+    max-width: 800px;
+    text-align: center;
+    padding: 80px 40px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe h1 {
+    color: rgb(14, 14, 14);
+    
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.subscribe p {
+    color: rgba(14, 14, 14, 0.7);
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.subscribe input {
+    padding: 15px 20px;
+    border-radius: 8px 0 0 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    
+    width: 60%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+.subscribe button {
+    padding: 15px 30px;
+    border-radius: 0 8px 8px 0;
+    border: none;
+    background: rgb(0, 123, 255);
+    color: #fff;
+   
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+   
+}
+
+.subscribe button:hover {
+    background: rgb(255, 0, 0);
+}
+.subscribe h5 {
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+   
