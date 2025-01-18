@@ -658,4 +658,30 @@
     letter-spacing: 0%;
     text-align: center;
 }
-   
+
+
+.footer{
+    margin: 160px auto;
+    max-width: 800px;
+    text-align: center;
+}
+.footer h1{
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+
+}
+.footer .images-f img {
+    width: 40px; 
+    height: 40px;
+    cursor: pointer;
+    
+    
+}
+
+.footer .images-f img:hover {
+    background: rgb(255, 255, 255);
+}
