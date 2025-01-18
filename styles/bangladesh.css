@@ -266,10 +266,21 @@
     background: rgb(84, 144, 245);
 }
 
-
+.vision-column1 button:hover{
+    background-color: red;
+    cursor: pointer;
+}
 
 .vision-column2 button{
-
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
     padding: 11px 20px 11px 20px;
 
     margin: 10px 0px;   
@@ -280,8 +291,20 @@
 
 }
 
+.vision-column2 button:hover{
+    background-color: red;
+    cursor: pointer;
+}
 .vision-column3 button{
-
+    padding: 11px 20px 11px 20px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
     padding: 11px 20px 11px 20px;
 
 
@@ -294,7 +317,10 @@
 }
 
 
-
+.vision-column3 button:hover{
+    background-color: red;
+    cursor: pointer;
+}
 
 .quote{
     /* Frame 2087325495 */
@@ -457,4 +483,81 @@
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left;
+}
+.satelite1 button:hover{
+    
+
+    background-color: red;
+    cursor: pointer;
+
+}
+
+.donate{
+    margin:160px 0px;
+    margin-left: 50px;
+    text-align: center;
+}
+.donate  h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;    
+
+}
+.donate p{
+    color: rgba(14, 14, 14, 0.7);
+    
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+     
+}
+
+.boxes{
+    display: flex;
+    justify-content: center;
+   
+}
+.box{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+    background: rgb(183, 169, 169);
+    padding-top: 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 3px;
+    margin: 0px 24px;    
+    margin-bottom: 20px;
+
+}
+.box p{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 0px; 
+
+}
+
+.donate input{
+    box-sizing: border-box;
+    
+    padding: 10px 200px 10px 200px;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(246, 242, 242);
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+    
 }
