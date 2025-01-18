@@ -7,7 +7,7 @@
 .main-container{
     /* Frame 4 */
     position: static;
-    width: 1100px;
+    width: 1200px;
     height: 560px;
     /* Auto layout */
     display: flex;
@@ -28,6 +28,7 @@
     background: rgb(198, 228, 214);
     margin:160px 0px;
     margin-left: 220px;
+    margin-right: 100px;
 
 }
 
@@ -392,7 +393,8 @@
 }
 .news{
     margin:160px 0px;
-    margin-left: 220px;
+    margin-left: 200px;
+    margin-right: 160px;
 
 }
 .recent h1{
@@ -493,13 +495,13 @@
 }
 
 .donate{
-    margin:160px 160px;
+    margin:160px 0px;
     margin-left: 208px;
-    margin-right: 260px;
+    margin-right: 300px;
     text-align: center;
     border-radius: 24px;
 
-    background: rgb(229, 222, 222);
+    background: rgb(198, 228, 214);
 }
 .donate  h1{
     font-size: 40px;
@@ -529,7 +531,7 @@
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 
-    background: rgb(6, 255, 176);
+    background: rgb(197, 133, 194);
     padding-top: 1px;
     padding-left: 4px;
     padding-right: 4px;
